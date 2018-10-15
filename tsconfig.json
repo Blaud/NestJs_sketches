@@ -14,10 +14,11 @@
     "baseUrl": "./src"
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "test/**/*.e2e-spec.ts"
   ],
   "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
+    "node_modules"
+ //   "**/*.spec.ts"
   ]
 }
